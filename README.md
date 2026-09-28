@@ -1,4 +1,5 @@
 Especificación Técnica del Microservicio: Historial de Compras
+
 •	a- Nombre del Servicio: HistorialCompras (Microservicio encargado de consultar las transacciones pasadas y el estatus de los pedidos de los clientes en la plataforma de la librería).
 
 •	b- Operación: GET (Método HTTP estándar para la recuperación, lectura y consulta de registros sin alterar ni modificar la base de datos).
