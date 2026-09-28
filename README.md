@@ -9,7 +9,7 @@ Especificación Técnica del Microservicio: Historial de Compras
 •	d- Datos de salida: 
   -Estructura estandarizada en formato JSON que contiene el identificador del usuario, el total de registros de compras y un arreglo (array) con el detalle completo de cada transacción:
     -id_transaccion: Código único del pedido (ej. LIB-0001 hasta LIB-0006).
-	  -fecha: Fecha y hora en la que se realizó la solicitud.
+	-fecha: Fecha y hora en la que se realizó la solicitud.
     -total: Monto monetario total pagado o por pagar en pesos mexicanos (MXN).
     -estado: Estatus actual del pedido (ej. "Entregado" o "En proceso").
     -productos: Lista de artículos incluidos en la compra (título del libro, autor, precio unitario y cantidad).
