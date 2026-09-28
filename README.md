@@ -5,10 +5,10 @@ Especificación Técnica del Microservicio: Historial de Compras
 •	b- Operación: GET (Método HTTP estándar para la recuperación, lectura y consulta de registros sin alterar ni modificar la base de datos).
 
 •	c- Datos de entrada: 
-  -usuario_id (Identificador único de tipo texto/string del cliente, enviado a través de la ruta o parámetro URL del endpoint, por ejemplo: /api/historial-compras/Aranzazu).
+ -usuario_id (Identificador único de tipo texto/string del cliente, enviado a través de la ruta o parámetro URL del endpoint, por ejemplo: /api/historial-compras/Aranzazu).
   
 •	d- Datos de salida: 
-  -Estructura estandarizada en formato JSON que contiene el identificador del usuario, el total de registros de compras y un arreglo (array) con el detalle completo de cada transacción:
+-Estructura estandarizada en formato JSON que contiene el identificador del usuario, el total de registros de compras y un arreglo (array) con el detalle completo de cada transacción:
     -id_transaccion: Código único del pedido (ej. LIB-0001 hasta LIB-0006).
 	-fecha: Fecha y hora en la que se realizó la solicitud.
     -total: Monto monetario total pagado o por pagar en pesos mexicanos (MXN).
